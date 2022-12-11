@@ -1,0 +1,174 @@
+.App {
+/* font-family: sans-serif; */
+text-align: center;
+
+margin: 0;
+  padding: 0;
+}
+
+.name {
+  color:black;
+  font-weight: bold;
+}
+.position {
+  color: grey;
+  font-weight: bold;
+}
+.homepage {
+  display: flex;
+  padding:10px;
+  position: absolute;
+
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} 
+
+
+
+
+.contacts{
+  width: 300px
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 7px;
+  padding:10px;
+  border-radius: 7px;
+}
+.contact:active{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+
+
+
+
+a{
+  text-decoration: none;
+}
+
+h2{
+  text-align: left;
+  margin-left: 20px;
+  color:black
+}
+
+
+
+
+
+.homepagebody{
+  width:50%;
+}
+.emploeebody{
+  width:400px;
+ 
+}
+
+.personalInfo{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:350px;
+  margin-left: 30px;
+
+
+}
+
+.return{
+  display: flex;
+
+}
+
+.card{
+  margin-top: 5%;
+  border:2px solid grey;
+  border-radius: 10px;
+}
+
+
+
+
+
+.personalTitle{
+  display:flex;
+  align-items: center;
+  padding: 10px;  
+}
+
+.personalName{
+  font-size: 18px;
+  font-weight: bold;
+
+  text-align: left;
+  margin-left: 30px;
+}
+
+.personalContact{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 2px solid grey;
+  padding: 20px;
+  text-align: left;
+}
+
+.action{
+  color: black;
+  font-weight: bold;
+}
+
+.number{
+  color: grey;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* .arrow{
+
+} */
+
+
+
+
+.right {
+  border: solid grey;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+   
+  border-width: 0 3px 3px 0;
+  /* display: inline-block; */
+  padding: 6px;
+  /* margin-bottom: 15px; */
+  /* margin-left: 80%; */
+  float: right;
+}
+
+
+.left {
+  border: solid black;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+   
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  margin-bottom: 1px;
+}
+
+
+
