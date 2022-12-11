@@ -6,28 +6,15 @@ import contactArr from "../data"
 import HomePage from "./HomePage"
 
 
-
-
-
-
-
-
-
-
-
-
-
-// const {photo} = contacArr
-// console.log(photo)
-
 export default function EmploeePage({contact}){
+    
     const {id} = useParams()
-    
-    // console.log(contactArr[0]);
-    
-    const thiscontact = contactArr[id]
+    const param = parseInt(id)
 
-     console.log(thiscontact.name)
+    const thiscontact = contactArr.find(element=>{
+        return element.id === param
+    })
+
 
 
     return (
